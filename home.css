@@ -1,0 +1,53 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: sans-serif;
+    background-color: rgb(24, 24, 24);
+}
+
+table {
+    border-collapse: collapse;
+    width: 50%;
+    background: #fcfcfc;
+    table-layout: fixed;
+    text-align: center;
+    border: 2px solid rgb(185, 128, 233);
+    width: 50% !important; /*Importante manter o !important rs */
+    margin: auto;
+}
+
+
+table td, table th {
+    border: 1px solid #838383;
+    padding: 8px;
+    text-align: center;
+    background-size: cover;
+    margin: 30px;
+    height: 30;
+}
+
+tfoot td, table th {
+    background: #838383;
+    font-style: italic;
+    text-align: center;
+}
+
+.responsive-table {
+    max-width: 100%;
+    overflow-x: auto;
+    margin: auto;
+}
+
+.cabecalho {
+    text-align: center;
+    color: #ccc;
+    margin: 8px 0;
+    font-size: 18px;
+    font-style: italic;
+    caption-side: bottom;
+
+}
+
